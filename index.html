@@ -1002,106 +1002,51 @@
     <script>
         // Sample product data - Easy to edit for your mother!
         const products = [
-            {
-                id: 1,
-                title: "Vintage Oak Coffee Table",
-                category: "furniture",
-                price: 45,
-                originalPrice: 120,
-                condition: "good",
-                description: "Solid oak coffee table with beautiful grain patterns. Some minor scratches on surface but structurally perfect.",
-                image: "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=400&h=400&fit=crop",
-                icon: "🪑"
-            },
-            {
-                id: 2,
-                title: "Ceramic Vase Collection",
-                category: "decor",
-                price: 18,
-                originalPrice: 45,
-                condition: "excellent",
-                description: "Set of 3 handmade ceramic vases in earth tones. Perfect condition, barely used.",
-                image: "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=400&h=400&fit=crop",
-                icon: "🏺"
-            },
-            {
-                id: 3,
-                title: "Le Creuset Casserole Dish",
-                category: "kitchen",
-                price: 35,
-                originalPrice: 85,
-                condition: "like-new",
-                description: "Volcanic orange 24cm casserole dish. Used twice, in practically new condition with original box.",
-                image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
-                icon: "🍳"
-            },
-            {
-                id: 4,
-                title: "Classic Literature Bundle",
-                category: "books",
-                price: 12,
-                originalPrice: 30,
-                condition: "good",
-                description: "Collection of 8 classic novels including Austen, Brontë, and Dickens. Well-loved but intact.",
-                image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400&h=400&fit=crop",
-                icon: "📚"
-            },
-            {
-                id: 5,
-                title: "Mid-Century Desk Lamp",
-                category: "furniture",
-                price: 28,
-                originalPrice: 65,
-                condition: "excellent",
-                description: "Brass adjustable desk lamp from the 1960s. Fully working, rewired with new plug.",
-                image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=400&fit=crop",
-                icon: "💡"
-            },
-            {
-                id: 6,
-                title: "Wool Throw Blanket",
-                category: "decor",
-                price: 22,
-                originalPrice: 55,
-                condition: "like-new",
-                description: "Soft merino wool throw in sage green. Washed and ready for a new home.",
-                image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=400&fit=crop",
-                icon: "🧶"
-            },
-            {
-                id: 7,
-                title: "KitchenAid Mixer Attachments",
-                category: "kitchen",
-                price: 40,
-                originalPrice: 95,
-                condition: "excellent",
-                description: "Pasta roller and cutter set. Fits all KitchenAid stand mixers. Used once, thoroughly cleaned.",
-                image: "https://images.unsplash.com/photo-1590794056226-79ef3a8147e1?w=400&h=400&fit=crop",
-                icon: "🍝"
-            },
-            {
-                id: 8,
-                title: "Silk Scarf Collection",
-                category: "clothing",
-                price: 15,
-                originalPrice: 40,
-                condition: "good",
-                description: "Three beautiful silk scarves from travels. Some minor pulls but vibrant colours.",
-                image: "https://images.unsplash.com/photo-1584030373081-f37b7bb4fa33?w=400&h=400&fit=crop",
-                icon: "🧣"
-            },
-            {
-                id: 9,
-                title: "Gardening Book Set",
-                category: "books",
-                price: 20,
-                originalPrice: 50,
-                condition: "like-new",
-                description: "Complete set of RHS gardening guides. Perfect for beginners and experts alike.",
-                image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=400&fit=crop",
-                icon: "🌱"
-            }
-        ];
+    {
+        "id": 1,
+        "title": "Vintage Oak Coffee Table",
+        "category": "furniture",
+        "price": 45,
+        "originalPrice": 120,
+        "condition": "good",
+        "description": "Solid oak coffee table with beautiful grain patterns. Some minor scratches on surface but structurally perfect.",
+        "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?w=400&h=400&fit=crop",
+        "icon": "🪑"
+    },
+    {
+        "id": 2,
+        "title": "Ceramic Vase Collection",
+        "category": "decor",
+        "price": 18,
+        "originalPrice": 45,
+        "condition": "excellent",
+        "description": "Set of 3 handmade ceramic vases in earth tones. Perfect condition, barely used.",
+        "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=400&h=400&fit=crop",
+        "icon": "🏺"
+    },
+    {
+        "id": 3,
+        "title": "Le Creuset Casserole Dish",
+        "category": "kitchen",
+        "price": 35,
+        "originalPrice": 85,
+        "condition": "like-new",
+        "description": "Volcanic orange 24cm casserole dish. Used twice, in practically new condition with original box.",
+        "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+        "icon": "🍳"
+    },
+    {
+        "id": 6,
+        "title": "LEGO CLASSIC",
+        "price": 39.9,
+        "originalPrice": 39.9,
+        "category": "toys",
+        "condition": "like-new",
+        "description": "mantap gesss",
+        "image": "https://mistersalmon073-png.github.io/apwalia/IMG_20260706_175048.jpg",
+        "icon": "🧸"
+    }
+];
 
         // Render products
         function renderProducts(filter = 'all') {
